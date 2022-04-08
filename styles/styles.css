@@ -422,3 +422,107 @@
     line-height: 23px;
     color: #181818;
 }
+
+.types-of-repair {
+    background-color: #FFFFFF;
+    margin-top: 69px;
+    margin-left: 13px;
+}
+
+.types-of-repair-content {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: YesevaOne;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;    
+    color: #181818; 
+}
+
+.types-of-repair-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.types-of-repair-icons img {
+    padding: 0px 5px;
+}
+
+.types-of-repair-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 90px;
+    max-width: 1236px;
+}
+
+.types-of-repair_block-text {
+    padding: 23px 33px 19px 33px;
+    background-color: #FFFFFF;
+    text-align: left;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    max-width: 330px;    
+    margin-top: -133px;
+    margin-left: 31px;
+    position: relative;
+    z-index: 1;
+}
+
+.types-of-repair-subtitle {
+    font-family: YesevaOne;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.types-of-repair_list {
+    list-style: circle;
+    padding-left: 17px;
+    margin-top: 8px;
+}
+
+.types-of-repair_list-item {
+    list-style: disc;
+    font-family: NunitoSans;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26.5px;
+    color: #959595;
+    text-indent: -7px;
+}
+
+.repair-button {
+    font-family: YesevaOne;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    margin-left: -103px;
+}
+
+.redecorating-button {
+    padding-left: 21.5px;
+    padding-right: 21.5px;
+}
+
+.overhaul-button {
+    padding-left: 18.5px;
+    padding-right: 18.5px;
+}
+
+.designer-repair-button {
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+}
