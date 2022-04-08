@@ -276,7 +276,7 @@
 }
 
 .online-control-content {
-    margin-left: 20px;
+    margin-left: 12px;
     max-width: 1440px;
     display: flex;
     flex-direction: column;
@@ -304,12 +304,29 @@
 
 .online-control-video {
     margin-top: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.image-video-overlay {
+    content: '';
+    width: 100%;
+    height: 435px;
+    position: absolute;
+    margin-top: -440px;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
 }
 
 .image-video-play {
     position: absolute;
-    margin-top: 150px;
-    margin-left: -483px;
+    z-index: 2;
+    margin-left: 333px;
+    margin-top: -290px;
+}
+
+.image-video-play:hover {
+    cursor: pointer;
 }
 
 .online-control-video_underline {
@@ -370,7 +387,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 .checkbox-input {
