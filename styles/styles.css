@@ -17,6 +17,12 @@
     font-weight: 400;
 }
 
+.content {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header {
     background-color: #131313;
     font-size: 11px;
@@ -26,18 +32,15 @@
 }
 
 .header-content {
-    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 92px;
-    margin-right: 76px;
 }
 
 .header-logo {
     color: #E3B873;
     text-transform: uppercase;
-    
+    margin-left: 92px;
 }
 
 .header-navigation-menu {
@@ -78,6 +81,7 @@
     padding: 11px 35px 11px 35px;
     margin-top: 21px;
     margin-bottom: 22px;
+    margin-right: 75px;
 }
 
 .hero {
@@ -86,12 +90,6 @@
     padding-top: 192px;
     position: relative;
     z-index: -2;
-}
-
-.hero-content {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-container {
@@ -154,12 +152,6 @@
 
 .projects {
     background-color: #131313;
-}
-
-.projects-content {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .completed-projects {    
@@ -282,9 +274,6 @@
 }
 
 .online-control-content {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     padding-left: 20px;
 }
@@ -440,9 +429,6 @@
 }
 
 .types-of-repair-content {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
 }
 
