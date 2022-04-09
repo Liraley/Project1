@@ -344,7 +344,6 @@
 .name-block {
     margin-right: 58px;
     margin-top: 2px;
-    padding-left: 18px;
 }
 
 .phone-block {
@@ -356,19 +355,23 @@
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
-    margin-left: -19px;
+    margin-left: -19px;    
+    padding-left: 18px;
 }
 
-.personal-information-text {
+.label {
     font-family: NunitoSans;
     font-weight: 400;
     font-size: 13px;
-    line-height: 17px;
-    color: rgba(54, 54, 54, 0.5);
     text-align: left;
 }
 
-.input-text {
+.personal-information-text {
+    line-height: 17px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.control-input-text {
     width: 231px;
     border: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
@@ -382,9 +385,12 @@
 
 .checkbox {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: -7px;
+}
+
+.control-checkbox {
+    justify-content: center;
 }
 
 .checkbox-input {
@@ -418,7 +424,10 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 23px;
+    line-height: 23px;    
+}
+
+.control-checkbox-text {
     color: #181818;
 }
 
@@ -521,4 +530,113 @@
 .designer-repair-button {
     padding-left: 16.5px;
     padding-right: 16.5px;
+}
+
+.request-content {
+    display: flex;
+    margin-top: 230px;
+}
+
+.request-plan {
+    background-image: url('../img/request-background.jpg');
+    background-repeat: no-repeat;
+    margin-top: -8px;
+    padding-right: 209px;
+}
+
+.request-plan-item {    
+    margin-left: 146px;
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.request-plan-item_text {
+    font-family: NunitoSans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636; 
+    margin-left: -8px;
+    margin-top: -11px;
+    width: max-content;  
+}
+
+.request-form {
+    
+    width: 506px;    
+    margin-top: 19px;
+}
+
+.request-form-black {
+    background-color: #131313;
+    padding-top: 1px;
+    padding-bottom: 26px;
+}
+
+.request-form-head {
+    font-family: NunitoSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.request-personal-information {
+    margin-top: 32px;
+    margin-left: 49px;
+    margin-bottom: 14px;
+}
+
+.request-personal-information-text {
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.request-input-text {
+    width: 448px;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
+    padding-bottom: 8px;
+    background-color: #131313;
+}
+
+.request-personal-block {
+    margin-bottom: 47px;
+}
+
+.request-checkbox-text {
+    color: #FFFFFF;
+}
+
+.request-checkbox {
+    justify-content: flex-start;
+    margin-left: 48px;
+}
+
+.request-form .button {
+    padding: 18px 35px 15px 40px;
+    margin-top: 36px;
+    margin-left: 245px;
+}
+
+.help-save {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 13px;
+}
+
+.help-save_text {
+    padding-top: 23px;
+    padding-left: 4px;
+    font-family: NunitoSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
