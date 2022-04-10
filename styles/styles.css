@@ -293,10 +293,14 @@
     color: #FFFFFF;
 }
 
-.videocamera-logo {
+.icons {
     display: flex;
-    margin-top: 12px;
+    align-items: center;
     justify-content: center;
+}
+
+.videocamera-icons {
+    margin-top: 12px;
 }
 
 .videocamera-logo img {
@@ -454,12 +458,10 @@
     line-height: 28px;
     text-transform: uppercase;
     color: #181818;
+    text-align: center;
 }
 
 .types-of-repair-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 12px;
 }
 
@@ -745,4 +747,97 @@
 
 .design-img_block img {
     padding-bottom: 32px;
+}
+
+.clients-head-text {
+    font-family: NunitoSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+
+.our-clients {
+    display: flex;
+    justify-content: space-between;
+    margin: 41px 93px 0px 93px;
+}
+
+.client-content {
+    padding-left: 20px;
+    padding-right: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding-bottom: 86px;
+}
+
+.clients-icons {
+    margin-top: 12px;
+}
+
+.clients-icons img{
+    padding: 0px 4px;
+}
+
+.clients-head-text {
+    margin-top: 22px;
+}
+
+.client-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 21px;
+    padding-top: 22px;
+}
+
+.client-name {
+    font-family: YesevaOne;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 23px;
+}
+
+.client-review {
+    font-family: NunitoSans;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    max-width: 324px;
+    padding-bottom: 7px;
+}
+
+.client-1,.client-2,.client-3 {
+    /* background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04); */
+}
+
+.button-client-text {
+    font-family: YesevaOne;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.client-button {
+    width: 293px;
+    height: 54px;
+    margin-top: -27px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.background-clients-content {
+    display: flex;
+    margin-top: -406px;
+    margin-left: -18px;
 }
