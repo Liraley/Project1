@@ -15,12 +15,48 @@
     text-decoration: none;
     font-family: 'NunitoSans', Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-style: normal;
 }
 
 .content {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+
+.gold-caption {
+    font-family: YesevaOne, 'Times New Roman', Times, serif;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: YesevaOne, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.subtitle {
+    font-family: YesevaOne;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #181818;
+    text-align: center;
 }
 
 .header {
@@ -64,16 +100,7 @@
 
 }
 
-.button {
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-align: center;
-    background: #E3B873;
-    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
-    border-radius: 2px;
-    border: 0;
-    cursor: pointer;
-}
+
 
 .header-content .button {
     font-size: 11px;
@@ -167,14 +194,7 @@
     padding-bottom: 17px;
 }
 
-.title {
-    font-family: YesevaOne, 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 37px;
-    text-transform: uppercase;
-    color: #E3B873;
-}
+
 
 .completed-projects-title {
     margin-top: 173px;
@@ -182,8 +202,6 @@
 }
 
 .completed-projects-text {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
@@ -210,9 +228,6 @@
 }
 
 .completed-projects-block-item_text {
-    font-family: NunitoSans;
-    font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
@@ -340,8 +355,6 @@
 .online-control-text_block {
     margin-top: 22px;
     max-width: 681px;
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 18px;
     line-height: 37px;
     color: #363636;
@@ -369,8 +382,6 @@
 }
 
 .label {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 13px;
     text-align: left;
 }
@@ -429,10 +440,6 @@
 
 .checkbox-text {
     margin-left: 8px;
-    ;
-    font-family: NunitoSans;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 23px;
 }
@@ -451,15 +458,7 @@
     text-align: center;
 }
 
-.subtitle {
-    font-family: YesevaOne;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #181818;
-    text-align: center;
-}
+
 
 .types-of-repair-icons {
     margin-top: 12px;
@@ -505,8 +504,6 @@
 
 .types-of-repair_list-item {
     list-style: disc;
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 13px;
     line-height: 26.5px;
     color: #959595;
@@ -561,8 +558,6 @@
 }
 
 .request-plan-item_text {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #363636;
@@ -584,8 +579,6 @@
 }
 
 .request-form-head {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
@@ -641,8 +634,6 @@
 .help-save_text {
     padding-top: 23px;
     padding-left: 4px;
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #E3B873;
@@ -713,8 +704,6 @@
 }
 
 .design-list_list__item a {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 20px;
     line-height: 49px;
     color: #FFFFFF;
@@ -750,8 +739,6 @@
 }
 
 .clients-head-text {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     text-align: center;
@@ -802,8 +789,6 @@
 }
 
 .client-review {
-    font-family: NunitoSans;
-    font-weight: 400;
     font-size: 13px;
     line-height: 23px;
     color: #959595;
@@ -974,6 +959,9 @@
 .social-media-img {
     padding-right: 10px;
     padding-left: 6px;
+}
+.social-media-img:hover{
+    cursor: pointer;
 }
 
 .map {
