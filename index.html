@@ -152,7 +152,6 @@
                 <div class="online-control-video">
                     <div class="image-video-normal">
                         <img class="image-video" src="img/process.png" alt="Online control - video">
-                        <!-- <div class="image-video-overlay"></div> -->
                     </div>
 
                     <div class="">
@@ -160,9 +159,14 @@
                     </div>
                 </div>
                 <img class="online-control-video_underline" src="img/line-under-video.svg" alt="line">
-                <p class="online-control-text_block">At each facility, a camera is installed that broadcasts the
+                <p class="online-control-text_block desktop">At each facility, a camera is installed that broadcasts the
                     progress of work on the clock. At any time, you can go to our website and monitor the progress of
                     work in your apartment. You can watch the live broadcast from one of our facilities!
+                    <br>Leave a request below and you will receive a link to the broadcast.
+                </p>
+                <p class="online-control-text_block mobile">At each facility, a camera is installed that broadcasts the
+                    progress<br>of work on the clock. At any time, you can go to our website and<br>monitor the progress of
+                    work in your apartment.<br>You can watch the live broadcast from one of our facilities!
                     <br>Leave a request below and you will receive a link to the broadcast.
                 </p>
                 <div class="personal-information">
@@ -174,7 +178,7 @@
                         <div class="personal-information-text label">Phone</div>
                         <input class="control-input-text" type="tel" name="phone" placeholder="Your phone number:">
                     </div>
-                    <input class="button" type="submit" value="Submit">
+                    <input class="button desktop" type="submit" value="Submit">
                 </div>
                 <div class="checkbox control-checkbox">
                     <input class="checkbox-input" type="checkbox" name="personal information" id="checkbox" required>
@@ -182,6 +186,7 @@
                     <label class="checkbox-text control-checkbox-text">I agree to the processing of personal
                         data</label>
                 </div>
+                <input class="button mobile" type="submit" value="Submit">
             </div>
         </section>
         <section class="types-of-repair">
@@ -258,7 +263,7 @@
                 </div>
             </div>
         </section>
-        <section class="request">
+        <section class="request desktop">
             <div class="request-content content">
                 <div class="request-plan">
                     <div class="request-plan-item">
@@ -319,14 +324,14 @@
                 </div>
             </div>
         </section>
-        <section class="design">
+        <section class="design desktop">
             <div class="design-content content">
                 <div class="design-content-container">
                     <div class="design-list">
                         <h2 class="title gold-title design-title">We realize your<br>
                             wildest fantasies
                         </h2>
-                        <ul class="design-list_list">
+                        <ul class="design-list_list desktop">
                             <li class="design-list_list__item"><a href="#">American classic</a></li>
                             <li class="design-list_list__item"><a href="#">Empire</a></li>
                             <li class="design-list_list__item"><a href="#">Classical</a></li>
@@ -340,12 +345,12 @@
                             <li class="design-list_list__item"><a href="#">Eclecticism</a></li>
                         </ul>
                     </div>
-                    <div class="design-img">
-                        <div class="design-img_block design-img_block-one">
+                    <div class="design-img desktop">
+                        <div class="design-img_block design-img_block-one desktop">
                             <img src="img/american-classic-1.jpg" alt="style example">
                             <img src="img/american-classic-2.jpg" alt="style example">
                         </div>
-                        <div class="design-img_block design-img_block-two">
+                        <div class="design-img_block design-img_block-two desktop">
                             <img src="img/american-classic-3.jpg" alt="style example">
                             <img src="img/american-classic-4.jpg" alt="style example">
                         </div>
@@ -353,7 +358,21 @@
                 </div>
             </div>
         </section>
-        <section class="clients">
+        <section class="design-phone mobile">
+            <div class="design-phone-content content">
+                <h2 class="title gold-title design-title">We realize your<br>
+                    wildest fantasies
+                </h2>
+                <div class="design-phone-picture-mobile">
+                    <img  class="design-example-photo" src="img/design-mobile.jpg" alt="American classic">
+                    <div class="design-switch">
+                        <img src="img/left-switch.svg" alt="switch left">
+                        <img src="img/right-switch.svg" alt="switch right">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients desktop">
             <div class="clients-content content">
                 <h2 class="subtitle">our clients</h2>
                 <div class="clients-icons icons">
@@ -452,7 +471,7 @@
                 </div>
             </div>
         </section>
-        <section class="background-clients">
+        <section class="background-clients desktop">
             <div class="content background-clients-content">
                 <div>
                     <img src="img/Frame-1.png" alt="background">
@@ -496,22 +515,29 @@
         <section class="contacts">
             <div class="contacts-container">
                 <div class="contacts-content content">
-                    <h3 class="gold-title contacts-head">
+                    <div class="mobile">
+                        <img class="map-mobile mobile" src="img/map-mobile.jpg" alt="map">
+                    </div>
+                    <h3 class="gold-title contacts-head desktop">
                         Rostov-on-Don, Nansen St., 239 Shopping Center
                         <br>Decorum Tel +7 (928) 768 32 29
+                    </h3>
+                    <h3 class="gold-title contacts-head mobile">
+                        Rostov-on-Don, Nansen St., 239 Shopping Center
+                        Decorum <br>Tel +7 (928) 768 32 29
                     </h3>
                     <div class="social-media">
                         <a class="social-media-img" href="#"><img src="img/email logo.svg" alt="email"></a>
                         <a class="social-media-img" href="#"><img src="img/inst logo.svg" alt="inst"></a>
                     </div>
-                    <div class="map">
-                        <img src="img/map.jpg" alt="map">
+                    <div class="map desktop">
+                        <img class="desktop" src="img/map.jpg" alt="map">
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="header">
+    <footer class="header desktop">
         <div class="header-content content">
             <div class="header-logo">
                 IC "Repair Design Project"
