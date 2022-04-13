@@ -1,4 +1,4 @@
-input[type='submit'] { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+/* input[type='submit'] { -webkit-appearance: none; -moz-appearance: none; appearance: none; } */
 
 @font-face {
     font-family: "NunitoSans";
@@ -39,6 +39,9 @@ input[type='submit'] { -webkit-appearance: none; -moz-appearance: none; appearan
     border-radius: 2px;
     border: 0;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .gold-title {
