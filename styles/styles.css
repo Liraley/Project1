@@ -147,7 +147,7 @@
     .mobile {
         display: flex;
     }
-    
+
     .content {
         margin-left: auto;
         margin-right: auto;
@@ -249,6 +249,7 @@
     box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
     border: 1px solid #E3B873;
 }
+
 @media screen and (max-width:1300px) {
     .hero {
         background-image: url('../img/background-room.jpg');
@@ -258,8 +259,8 @@
     }
 
     .hero-container {
-        width: 100%;
-        margin-bottom: 150px;
+        max-width: 600px;
+        margin-bottom: 151px;
     }
 
     .hero-title {
@@ -287,8 +288,8 @@
 
     .hero-container {
         margin-left: 0px;
-        padding-left: 17px;
-        margin-bottom: 56px;
+        margin-bottom: 55px;
+        max-width: 320px;
     }
 
     .hero-title {
@@ -440,7 +441,7 @@
         display: none;
     }
 
-    .completed-projects {        
+    .completed-projects {
         margin-left: 0px;
         justify-content: center;
         padding-bottom: 0;
@@ -452,7 +453,7 @@
     }
 
     .completed-projects-title {
-        margin-top: 31px;      
+        margin-top: 31px;
         text-align: center;
     }
 
@@ -495,7 +496,7 @@
         display: none;
     }
 
-    .completed-projects {        
+    .completed-projects {
         margin-left: 0px;
         justify-content: center;
         padding-bottom: 0;
@@ -723,16 +724,16 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .online-control{
+    .online-control {
         background-color: #131313;
     }
 
-    .online-control-content {        
+    .online-control-content {
         padding-left: 0px;
     }
 
-    .online-control-head{
-        margin-top: 0;
+    .online-control-head {
+        margin-top: -1px;
         padding-top: 100px;
     }
 
@@ -791,20 +792,20 @@
         margin-left: auto;
         margin-top: 0px;
     }
-    
+
     .control-input-text {
         width: 300px;
         border: 0;
         border-bottom: 1px solid rgb(120 120 120);
         padding-bottom: 5px;
-        background-color:#131313;
+        background-color: #131313;
         margin-left: -27px;
     }
 
     .control-input-text::placeholder {
         color: #FFFFFF;
     }
-    
+
     .control-checkbox-text {
         color: #FFFFFF;
     }
@@ -824,19 +825,19 @@
 }
 
 @media screen and (max-width: 768px) {
-    .online-control{
+    .online-control {
         background-color: #131313;
     }
 
-    .online-control-content {        
+    .online-control-content {
         padding-left: 0px;
     }
 
-    .online-control-head{
-        margin-top: 0;
+    .online-control-head {
+        margin-top: -1px;
         padding-top: 55px;
     }
-    
+
     .videocamera-icons {
         margin-top: 15px;
     }
@@ -865,7 +866,7 @@
     .online-control-video_underline {
         margin-top: 20px;
     }
-    
+
     .online-control-text_block {
         width: 340px;
         font-size: 11px;
@@ -906,14 +907,14 @@
         border: 0;
         border-bottom: 1px solid rgb(120 120 120);
         padding-bottom: 5px;
-        background-color:#131313;
+        background-color: #131313;
         margin-left: 0;
     }
 
     .control-input-text::placeholder {
         color: #FFFFFF;
     }
-    
+
     .control-checkbox-text {
         color: #FFFFFF;
     }
@@ -921,7 +922,7 @@
     .control-checkbox {
         margin-left: -40px;
     }
-    
+
     .online-control-content .button {
         margin-top: 55px;
         width: 323px;
@@ -1082,7 +1083,7 @@
         max-width: 340px;
     }
 
-    .types-of-repair-image img{
+    .types-of-repair-image img {
         width: 323px;
     }
 
@@ -1095,7 +1096,7 @@
         max-width: 259px;
         margin-left: 0;
         margin-top: -139px;
-        padding: 19px 33px 16px 29px;      
+        padding: 19px 33px 16px 29px;
     }
 
     .types-of-repair_list-item {
@@ -1108,9 +1109,9 @@
         margin-left: -139px;
         padding-top: 10px;
         padding-bottom: 8px;
-        width: 181px;       
+        width: 181px;
     }
-    
+
 }
 
 .request-content {
@@ -1332,7 +1333,7 @@
         text-align: center;
     }
 
-    .design-example-photo{
+    .design-example-photo {
         width: 452px;
     }
 
@@ -1350,21 +1351,21 @@
 
 @media screen and (max-width: 768px) {
     .design-phone-content {
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .title {
         font-size: 22px;
         line-height: 30px;
-    } 
+    }
 
     .design-title {
         margin: -8px auto 30px auto;
         text-align: center;
     }
 
-    .design-example-photo{
+    .design-example-photo {
         width: 323px;
     }
 
@@ -1602,24 +1603,24 @@
     }
 
 }
-  
+
 @media screen and (max-width: 768px) {
     .questions-container {
         padding-left: 0px;
     }
-    
+
     .questions-request {
         background-color: #181818;
         margin-top: -134px;
     }
-   
+
     .questions-request-content {
         max-width: 1300px;
         margin-top: 0px;
         position: static;
         padding-top: 132px;
     }
-    
+
     .questions-request-name-phone {
         display: block;
         margin-top: 48px;
@@ -1641,7 +1642,7 @@
         border: 0;
         border-bottom: 1px solid rgb(120 120 120);
         padding-bottom: 5px;
-        background-color:#181818;
+        background-color: #181818;
         margin-left: 0px;
     }
 
@@ -1658,7 +1659,7 @@
     .question-input-text {
         width: 327px;
         border-bottom: 1px solid rgb(120 120 120);
-        margin-left:  0px;
+        margin-left: 0px;
     }
 
     .question-input-text::placeholder {
@@ -1737,8 +1738,9 @@
 @media screen and (max-width:1300px) {
     .contacts {
         position: static;
-        background-image:none;
-        background-color: #181818;        
+        background-image: none;
+        background-color: #181818;
+        margin-top: -1px;
     }
 
     .contacts-content {
@@ -1767,14 +1769,15 @@
 @media screen and (max-width:768px) {
     .contacts {
         position: static;
-        background-image:none;
-        background-color: #181818;        
+        background-image: none;
+        background-color: #181818;
+        margin-top: -1px;
     }
-    
+
     .contacts-content {
         margin-top: 0px;
     }
-    
+
     .map-mobile {
         max-width: 323px;
         margin: 11px auto 0px auto;
